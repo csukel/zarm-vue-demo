@@ -9,7 +9,7 @@ import App from './App'
 import router from './router'
 
 import '../node_modules/vuetify/dist/vuetify.min.css';
-import '../node_modules/vuetify/src/stylus/app.styl';
+// import '../node_modules/vuetify/src/stylus/app.styl';
 
 Vue.config.productionTip = false
 
