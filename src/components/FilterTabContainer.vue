@@ -38,7 +38,8 @@ export default {
   /* justify-content: space-evenly; */
   font-family: Roboto, sans-serif;
   line-height: 1.5;
-  background: #00bcd4;
+  /* background: #00bcd4; */
+  background: #83acd2;
   padding: 0;
 }
 
@@ -55,8 +56,8 @@ export default {
 }
 
 #tab-container > ul > li:hover {
-  background: #705c42;
-  background: burlywood;
+  background: #0F5CA4;
+  /* background: burlywood; */
 }
 </style>
 

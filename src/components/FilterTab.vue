@@ -30,7 +30,7 @@ export default {
 
 <style scoped>
 .active {
-  background: #705c42;
+  background: #0F5CA4;
 }
 
 @media only screen and (max-width: 600px) {
@@ -75,7 +75,7 @@ export default {
   justify-content: center;
   max-width: 60%;
   margin: auto;
-  /* font-size: 0.85rem !important; */
+  font-size: 0.95rem !important;
 }
 
 .tab-numbers {
@@ -84,7 +84,7 @@ export default {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   /* flex-direction: column; */
-  font-size: 0.65rem !important;
+  font-size: 0.70rem !important;
 }
 </style>
 

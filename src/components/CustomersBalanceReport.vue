@@ -1,13 +1,21 @@
 <template>
-  <filter-tab-container></filter-tab-container>
+  <div>
+    <filter-tab-container></filter-tab-container>
+    <customers-filter-panel></customers-filter-panel>
+    <customers-table></customers-table>
+  </div>
 </template>
 
 <script>
 import FilterTabContainer from "@/components/FilterTabContainer";
+import CustomersTable from "@/components/CustomersTable";
+import CustomersFilterPanel from '@/components/CustomersFilterPanel'
 export default {
   name: "CustomersBalanceReport",
   components: {
-    "filter-tab-container": FilterTabContainer
+    "filter-tab-container": FilterTabContainer,
+    "customers-table": CustomersTable,
+    "customers-filter-panel": CustomersFilterPanel
   },
   data() {
     return {
