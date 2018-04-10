@@ -4,6 +4,8 @@
             <v-layout row wrap>
                 <v-flex xl8 lg8 md6 xs12>
                     <customer-details :customer="customer"></customer-details>
+                    <invoices-table></invoices-table>
+                    <communication-actions :customer="customer_balance"></communication-actions>
                 </v-flex>
                 <v-flex xl4 lg4 md6 xs12 >
                     <communication-log></communication-log>
@@ -17,14 +19,18 @@
 <script>
 import CustomerDetails from "@/components/CustomerDetails";
 import CommunicationLog from '@/components/CommunicationLog';
+import InvoicesTable from '@/components/InvoicesTable';
+import CommunicationActions from '@/components/CommunicationActions';
 import { mapState, mapGetters, mapActions } from "vuex";
 export default {
   components: {
     "customer-details": CustomerDetails,
-    "communication-log": CommunicationLog
+    "communication-log": CommunicationLog,
+    "invoices-table" : InvoicesTable,
+    "communication-actions": CommunicationActions
   },
   name: "CustomerPage",
-  //   props: ["customer"],
+    props: ["customer_balance"],
   created() {
     var t = null;
   },

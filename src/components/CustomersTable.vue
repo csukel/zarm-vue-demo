@@ -55,7 +55,7 @@ export default {
       }
     },
     onCustomerClicked (item){
-        this.$router.push({name:'CustomerPage',params: {customerId:item.customerId,customer:item}});
+        this.$router.push({name:'CustomerPage',params: {customerId:item.customerId,customer_balance:item}});
     }
   },
   data() {
