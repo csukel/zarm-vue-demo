@@ -73,9 +73,9 @@ export default {
                 nextKinTel: '22545931',
                 nextKinEmail: 'm.costa@gmail.com',
                 flag: 'green',
-                other: null,
+                other: 'nil',
                 contact:'Do not Contact',
-                legal: null
+                legal: 'nil'
             },
             {
 
@@ -93,9 +93,9 @@ export default {
                 nextKinTel: '22478312',
                 nextKinEmail: 'economou.costas@gmail.com',
                 flag: 'yellow', //null(default value), green,yellow,red
-                other: null, //null(default value),passed away(red color)
+                other: 'nil', //null(default value),passed away(red color)
                 contact:'In contact list', //in contact list (default value), do not contact(red color)
-                legal: null //null (default value), Handled by Lawyers(red color)
+                legal: 'nil' //null (default value), Handled by Lawyers(red color)
             },
             {
                 customerId: '106543',
@@ -111,17 +111,17 @@ export default {
                 nextKinMobile: '99455212',
                 nextKinTel: '22394012',
                 nextKinEmail: 'antreou.george@gmail.com',
-                flag: null, //null(default value), green,yellow,red
-                other: null, //null(default value),passed away(red color)
+                flag: 'nil', //null(default value), green,yellow,red
+                other: 'nil', //null(default value),passed away(red color)
                 contact:'In contact list', //in contact list (default value), do not contact(red color)
-                legal: 'Handled by Lawers' //null (default value), Handled by Lawyers(red color)
+                legal: 'Handled by Lawyers' //null (default value), Handled by Lawyers(red color)
             },
             {
                 customerId: '107624',
                 customerName: 'Anastasiou Maria',
                 gender: 'Female',
                 age: 45,
-                dob: '31/12/1973',
+                dob: '1973-12-31',// new Date('1973-12-31'), //'31/12/1973'
                 mobile: '99243010',
                 tel : '22869540',
                 email: 'aanastasiou_maria@gmail.com',
@@ -133,7 +133,7 @@ export default {
                 flag: 'red', //null(default value), green,yellow,red
                 other: 'Passed Away', //null(default value),passed away(red color)
                 contact:'Do not Contact', //in contact list (default value), do not contact(red color)
-                legal: null //null (default value), Handled by Lawyers(red color)
+                legal: 'nil' //null (default value), Handled by Lawyers(red color)
             },
             {
                 customerId: '105685',
@@ -149,10 +149,10 @@ export default {
                 nextKinMobile: '99542013',
                 nextKinTel: '22796542',
                 nextKinEmail: 'maria.panayiotou@gmail.com',
-                flag: null, //null(default value), green,yellow,red
-                other: null, //null(default value),passed away(red color)
+                flag: 'nil', //null(default value), green,yellow,red
+                other: 'nil', //null(default value),passed away(red color)
                 contact:'In contact list', //in contact list (default value), do not contact(red color)
-                legal: null //null (default value), Handled by Lawyers(red color)
+                legal: 'nil' //null (default value), Handled by Lawyers(red color)
             },
             {
                 customerId: '108586',
@@ -168,10 +168,10 @@ export default {
                 nextKinMobile: '99520121',
                 nextKinTel: '22865920',
                 nextKinEmail: 'nektarios.neophytou@gmail.com',
-                flag: null, //null(default value), green,yellow,red
-                other: null, //null(default value),passed away(red color)
+                flag: 'nil', //null(default value), green,yellow,red
+                other: 'nil', //null(default value),passed away(red color)
                 contact:'In contact list', //in contact list (default value), do not contact(red color)
-                legal: null //null (default value), Handled by Lawyers(red color)
+                legal: 'nil' //null (default value), Handled by Lawyers(red color)
             }
         ],
         customers_balances: [
