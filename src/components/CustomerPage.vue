@@ -2,10 +2,10 @@
     <div v-if="customer">
         <v-container grid-list-xl fluid>
             <v-layout row wrap>
-                <v-flex xl6 lg6 md6 xs12>
+                <v-flex xl8 lg8 md6 xs12>
                     <customer-details :customer="customer"></customer-details>
                 </v-flex>
-                <v-flex xl6 lg6 md6 xs12 >
+                <v-flex xl4 lg4 md6 xs12 >
                     <communication-log></communication-log>
                 </v-flex>
             </v-layout>
