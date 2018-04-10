@@ -39,7 +39,7 @@ export default {
   computed: {
     ...mapState({
       headers: state => state.customers.headers,
-      customers: state => state.customers.customers
+      customers: state => state.customers.customers_balances
     })
   },
   methods: {
@@ -55,8 +55,7 @@ export default {
       }
     },
     onCustomerClicked (item){
-        // debugger;
-        var t = item;
+        this.$router.push({name:'CustomerPage',params: {customerId:item.customerId,customer:item}});
     }
   },
   data() {
